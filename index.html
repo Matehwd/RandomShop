@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Random Shop</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navegación principal -->
+    <p id="inicio"></p>
+    <div class="barra-superior" id="barra-superior">
+        <!-- Botón para abrir la ventana emergente -->
+        <button class="abrir-popup" id="abrir-popup">></button>
+
+        <!-- Ventana emergente -->
+        <div class="popup-despliegue" id="popup-despliegue">
+            <div class="contenido-popup">
+                <!-- Botón para cerrar la ventana emergente -->
+                <button class="cerrar-popup" id="cerrar-popup"><</button>
+                <br>
+                <!-- Enlaces de navegación -->
+                <div class="link1">
+                    <a href="#inicio" class="link-popup" id="link1">Inicio</a><br>
+                </div>
+                <div class="link2">
+                    <a href="#productos" class="link-popup" id="link2">Productos</a><br>
+                </div>
+                <div class="link3">
+                    <a href="#enviar_opiniones" class="link-popup" id="link3">Envie sus opiniones</a>
+                </div>
+            </div>
+                <img class="maxwell" src="/storage/emulated/0/Random Shop/pictures/maxwell-cat.gif">
+        </div>
+
+        <!-- Buscador -->
+        <input class="buscador" type="text" required>
+        <button class="button-busqueda" type="submit">Buscar</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Sección de bienvenida -->
+    <section class="welcome">
+        <img class="img_prins" src="/storage/emulated/0/Random Shop/pictures/Ralsei_Gif.gif" height="150" alt="Bienvenida">
+        <div class="globo">
+            <h1 class="welcome-text">Welcome to Random Shop!</h1>
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <div class="Productos" id="productos">
+        <div class="Productos_box">
+            <h1 class="text">Productos</h1>
+        </div>
+
+        <!-- Producto 1 -->
+        <div class="prod1">
+            <img class="img_prod1" src="/storage/emulated/0/Random Shop/pictures/Pepés.jpg" height="200" alt="Producto 1">
+            <div class="text_box_prod1">
+                <h1 class="prod1_descrip">Zapatillas DC Pensford</h1>
+                <p class="descripcion_prod1">Zapatillas modernas de diseño casual y resistente.</p>
+                <p class="precio1">27$</p>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="prod2">
+            <img class="img_prod2" src="/storage/emulated/0/Random Shop/pictures/1x1x1.jpg" height="200" alt="Producto 2">
+            <div class="text_box_prod2">
+                <h1 class="prod2_descrip">GoodCube 1x1x1 Cube</h1>
+                <p class="descripcion_prod2">Cubo mágico demasiado simple, ideal para super principiantes.</p>
+                <p class="precio2">10$</p>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="prod3">
+            <img class="img_prod3" src="/storage/emulated/0/Random Shop/pictures/tanque.jpeg" height="200" alt="Producto 3">
+            <div class="text_box_prod3">
+                <h1 class="prod3_descrip">Танк</h1>
+                <p class="descripcion_prod3">Tanque.</p>
+                <p class="precio3">0.99$</p>
+            </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="prod4">
+            <img class="img_prod4" src="/storage/emulated/0/Random Shop/pictures/moai.jpeg" height="200" alt="Producto 4">
+            <div class="text_box_prod4">
+                <h1 class="prod4_descrip">Moai</h1>
+                <p class="descripcion_prod4">Estatua decorativa inspirada en las figuras de la Isla de Pascua.</p>
+                <p class="precio4">100$</p>
+            </div>
+        </div>
+    </div>
+        
+        <!-- hacerca de nosotros -->
+        <div class="formulario" id=enviar_opiniones>
+            <h1 class="opinion">
+                Envienos sus opiniones! :]
+            </h1>
+            <p1 class="gmail-text">
+                ingrese el correo:
+            </p1> <br>
+            <input class="gmail" type="text" required> <br>
+            <p1 class="mensaje-text">
+                Escriba su mensaje aqui:
+            </p1> <br>
+            <input class="mensaje" type="text" required> <br>
+            <button class="button-enviar" type="submit">Enviar</button>
+            
+        </div>
+            
+</body>
+
+</html>
